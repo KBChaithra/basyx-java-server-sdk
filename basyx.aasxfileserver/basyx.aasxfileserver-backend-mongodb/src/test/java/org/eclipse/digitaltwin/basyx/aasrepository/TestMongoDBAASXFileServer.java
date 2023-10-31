@@ -73,8 +73,6 @@ public class TestMongoDBAASXFileServer extends AASXFileServerSuite {
 		gridFsTemplate = appContext.getBean(GridFsTemplate.class);
 	}
 	
-//	@Mock
-//	private MongoTemplate mongoTemplate;
 	
 	@Override
 	protected AASXFileServer getAasxFileServer() {
